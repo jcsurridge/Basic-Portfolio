@@ -89,9 +89,6 @@ footer { border-top: 8px solid #4aaaa5;
     text-align: center;
 }
 
-
-
-
 #fname { padding: 10px;
     margin-left: 20px;
     width: 90%;
@@ -110,6 +107,9 @@ footer { border-top: 8px solid #4aaaa5;
 }
 
 .names {margin-left: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
 #submit { padding: 10px;
@@ -117,6 +117,4 @@ footer { border-top: 8px solid #4aaaa5;
     text-align: center;
     margin-bottom: 10px;
     background: #4aaaa5;
-}
-label {display: block;
 }
