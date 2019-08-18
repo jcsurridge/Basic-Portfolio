@@ -1,9 +1,11 @@
 body {
 	background-image: url("images/pattern.png");
     color: #444444;
+    text-decoration: none;
 }
 
 .header{ overflow: hidden;
+    border-bottom: 2px solid #dddddd;
     background-color: #ffffff;
     width: 100%;
 }
@@ -22,17 +24,27 @@ body {
 }
 
 .links {float: left;
-    text-decoration-color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 25px 5px 22px 500px;
-    font-size: 18px;
-    
+    font-size: 16px;
 }
 
+ .links a{margin: 0px 5px;
+    text-decoration: none;
+    text-align: center;
+    color: #777777;
+ }
+
+ A:hover {color: #4aaaa5;
+ }
+ 
 .main {
+    border: 2px solid #dddddd;
     width: 960px;
     margin-top:40px;
     background: #ffffff;
     margin-left: 250px;
+    margin-bottom: 100px;
 }
 
 .header2 {padding: 25px;
@@ -42,14 +54,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     background: #ffffff;
-    margin-left:12px;
+    
 }
 
 #border { border-bottom: 2px solid #dddddd;
 }
 
 img {float: left;
-    margin: 0px 20px 0px 35px;
+    margin: 0px 20px 0px 25px;
 }
 
 .info {background: #ffffff;   
@@ -61,5 +73,26 @@ p {font-family: Arial, Helvetica, sans-serif;
     margin-left: 20px;
     font-weight: 400;
     line-height: 175%;
-    
+    margin-bottom: 20px;
+
+}
+
+footer { border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0px;
+    background: #444444;
+    height: 50px;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size:xx-small;
+    width: 100%;
+    text-align: center;
+}
+
+.container text {margin-left: 20px;
+
+
+}
+#fname { margin-left: 20px;
+    width: 80%
 }
