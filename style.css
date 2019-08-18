@@ -89,10 +89,34 @@ footer { border-top: 8px solid #4aaaa5;
     text-align: center;
 }
 
-.container text {margin-left: 20px;
 
 
+
+#fname { padding: 10px;
+    margin-left: 20px;
+    width: 90%;
 }
-#fname { margin-left: 20px;
-    width: 80%
+
+#lname { padding: 10px;
+    margin-left: 20px;
+    width:90%;
+   
+}
+
+#message {height: 250px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    width:94%;
+}
+
+.names {margin-left: 20px;
+}
+
+#submit { padding: 10px;
+    width: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #4aaaa5;
+}
+label {display: block;
 }
