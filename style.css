@@ -1,0 +1,32 @@
+body {
+	background-image: url("pattern.png");
+    color: #444444;
+}
+
+.header{ 
+    background-color: yellow;
+    width: 100%;
+}
+
+h1{ background: blue;
+    padding:20px;
+    margin-left: 250px;
+    width: 175px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 24px;
+
+}
+
+.main { width: 960px;
+    margin-top:40px;
+    background: gray;
+    margin-left: 250px;
+}
+
+#aboutme {font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
