@@ -1,21 +1,23 @@
 body {
-	background-image: url("images/pattern.png");
+    background-image: url("images/pattern.png");
     color: #444444;
     text-decoration: none;
 }
 
-.header{ overflow: hidden;
+.header {
+    overflow: hidden;
     border-bottom: 2px solid #dddddd;
     background-color: #ffffff;
     width: 100%;
 }
 
-
-.name { background: #4aaaa5;
+.name {
+    box-shadow: 5px 5px 10px gray;
+    background: #4aaaa5;
     text-align: center;
     float: left;
     font-weight: 600;
-    padding:20px;
+    padding: 20px;
     margin-left: 250px;
     width: 200px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -23,98 +25,144 @@ body {
     font-size: 24px;
 }
 
-.links {float: left;
+.links {
+    float: left;
     font-family: Arial, Helvetica, sans-serif;
     margin: 25px 5px 22px 500px;
     font-size: 16px;
 }
 
- .links a{margin: 0px 5px;
+.links a {
+    margin: 0px 5px;
     text-decoration: none;
     text-align: center;
     color: #777777;
- }
+}
 
- A:hover {color: #4aaaa5;
- }
- 
+a:hover {
+    color: #4aaaa5;
+}
+
 .main {
     border: 2px solid #dddddd;
     width: 960px;
-    margin-top:40px;
+    margin-top: 40px;
     background: #ffffff;
     margin-left: 250px;
     margin-bottom: 100px;
 }
 
-.header2 {padding: 25px;
+.header2 {
+    padding: 25px;
     font-weight: 600;
     text-align: left;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     background: #ffffff;
-    
 }
 
-#border { border-bottom: 2px solid #dddddd;
+#border {
+    border-bottom: 2px solid #dddddd;
 }
 
-img {float: left;
+img {
+    float: left;
     margin: 0px 20px 0px 25px;
 }
 
-.info {background: #ffffff;   
+.info {
+    background: #ffffff;
+    height: 620px;
+    background-color: lightcoral;
 }
 
-p {font-family: Arial, Helvetica, sans-serif;
+p {
+    font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     font-size: 16px;
     margin-left: 20px;
     font-weight: 400;
     line-height: 175%;
     margin-bottom: 20px;
-
 }
 
-footer { border-top: 8px solid #4aaaa5;
+footer {
+    border-top: 8px solid #4aaaa5;
     position: fixed;
-    bottom: 0px;
+    color: #ffffff;
+    font-size: xx-small;
+    text-align: center;
     background: #444444;
     height: 50px;
     margin-top: 50px;
-    color: #ffffff;
-    font-size:xx-small;
+    bottom: 0px;
     width: 100%;
-    text-align: center;
 }
 
-#fname { padding: 10px;
+#fname, #lname {
+    padding: 10px;
     margin-left: 20px;
     width: 90%;
 }
 
-#lname { padding: 10px;
-    margin-left: 20px;
-    width:90%;
-   
-}
-
-#message {height: 250px;
+#message {
+    height: 250px;
     font-size: 14px;
     margin-bottom: 20px;
-    width:94%;
+    width: 94%;
 }
 
-.names {margin-left: 20px;
+.names {
+    margin-left: 20px;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
 
-#submit { padding: 10px;
+#submit {
+    padding: 10px;
     width: 70px;
     text-align: center;
     margin-bottom: 10px;
     background: #4aaaa5;
+}
+
+#firstBox {
+    background: black;
+    padding: 20px;
+    width: 30%;
+    margin: 20px 120px 20px 70px;
+    height: 120px;
+    float: left;
+}
+
+#secondBox {
+    background: blue;
+    padding: 20px;
+    margin: 20px;
+    height: 120px;
+    width: 30%;
+    float: left;
+}
+
+#submit {
+    width: 15%;
+    margin-right: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #4aaaa5;
+    color: rgb(255, 255, 255);
+    flex: 1 1 33%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px 4px 4px 0px;
+}
+
+#submit:hover {
+    background-color: #52bdb7;
+
 }
