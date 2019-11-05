@@ -18,6 +18,7 @@ body {
     float: left;
     font-weight: 600;
     padding: 20px;
+    margin-top: 10px;
     margin-left: 250px;
     width: 200px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,7 +29,7 @@ body {
 .links {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 25px 5px 22px 500px;
+    margin: 25px 5px 22px 415px;
     font-size: 16px;
 }
 
@@ -42,6 +43,15 @@ body {
 a:hover {
     color: #4aaaa5;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+.leftPortfolioBox:visited, 
+.rightPortfolioBox:visited {
+    color: #4aaaa5
+  }  
 
 .main {
     border: 2px solid #dddddd;
@@ -66,7 +76,7 @@ a:hover {
     border-bottom: 2px solid #dddddd;
 }
 
-img {
+ .profilePicture {
     float: left;
     margin: 0px 20px 0px 25px;
 }
@@ -74,7 +84,6 @@ img {
 .info {
     background: #ffffff;
     height: 620px;
-    background-color: lightcoral;
 }
 
 p {
@@ -100,69 +109,3 @@ footer {
     width: 100%;
 }
 
-#fname, #lname {
-    padding: 10px;
-    margin-left: 20px;
-    width: 90%;
-}
-
-#message {
-    height: 250px;
-    font-size: 14px;
-    margin-bottom: 20px;
-    width: 94%;
-}
-
-.names {
-    margin-left: 20px;
-    margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-
-#submit {
-    padding: 10px;
-    width: 70px;
-    text-align: center;
-    margin-bottom: 10px;
-    background: #4aaaa5;
-}
-
-#firstBox {
-    background: black;
-    padding: 20px;
-    width: 30%;
-    margin: 20px 120px 20px 70px;
-    height: 120px;
-    float: left;
-}
-
-#secondBox {
-    background: blue;
-    padding: 20px;
-    margin: 20px;
-    height: 120px;
-    width: 30%;
-    float: left;
-}
-
-#submit {
-    width: 15%;
-    margin-right: 8px;
-    text-transform: uppercase;
-    text-align: center;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: 700;
-    background-color: #4aaaa5;
-    color: rgb(255, 255, 255);
-    flex: 1 1 33%;
-    padding: 12px;
-    margin-bottom: 10px;
-    border-radius: 4px 4px 4px 0px;
-}
-
-#submit:hover {
-    background-color: #52bdb7;
-
-}

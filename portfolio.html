@@ -8,6 +8,10 @@
     <title>My portfolio</title>
     <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="https://kit.fontawesome.com/0446070438.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 
 </head>
@@ -19,9 +23,11 @@
             <div class="name">Josh Surridge</div>
         </div>
         <div class="links">
+            <a href="https://www.linkedin.com/in/josh-surridge-026457133/" class="socialMedia" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a href="https://github.com/jcsurridge" class="socialMedia" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
             <a href="index.html">About </a>
             <a href="portfolio.html">Portfolio </a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="position">Contact</a>
         </div>
     </div>
 
@@ -29,10 +35,26 @@
     <div class="header2">Portfolio
         <div id="border"><br></div>
         <div class="info">
-            <div id="firstBox">
-                </div>
-                <div id="secondBox">
-            </div>
+
+
+            <a class="leftPortfolioBox" href="https://jcsurridge.github.io/psychic-game/" target="_blank">
+                    <img src="images/computerguess.PNG" id="computerGuess" alt="computerpng" height="180px" width="275px">
+                Computer Guess
+            </a>
+                <a class="rightPortfolioBox" href="https://jcsurridge.github.io/unit-4-game/" target="_blank">
+                    <img src="images/crystals.PNG" id="crystals" alt="computerpng" height="180px" width="275px">
+                Crystal Game
+                </a>
+            <a class="leftPortfolioBox" href="https://jcsurridge.github.io/Train-Scheduler/" target="_blank">
+                    <img src="images/train.PNG" id="train" alt="computerpng" height="180px" width="275px">    
+                Train Scheduler
+            </a>
+            <a class="rightPortfolioBox" href="https://jbohlig.github.io/Project-1/" target="_blank">
+                    <img src="images/group.PNG" id="group" alt="computerpng" height="180px" width="275px">
+                Group Project #1
+            </a>
+        </div>
+
         </div>
     </div>
 </div>
@@ -43,6 +65,18 @@
                 <br><br><br><br>Copyright®
             </div>
         </footer>
+
+<script>
+
+$("computerGuess").on("click", function(event){
+    event.preventDefault();
+
+    console.log("this click is working");
+
+});
+
+</script>
+
 
 </body>
 
