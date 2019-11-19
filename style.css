@@ -29,7 +29,7 @@ body {
 .links {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 25px 5px 22px 415px;
+    margin: 25px 5px 22px 360px;
     font-size: 16px;
 }
 
@@ -83,13 +83,18 @@ a:link {
 
 .info {
     background: #ffffff;
-    height: 620px;
+    height: 600px;
+}
+
+.info1 {
+    background: #ffffff;
+    height: 400px;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    font-size: 16px;
+    font-size: 20px;
     margin-left: 20px;
     font-weight: 400;
     line-height: 175%;
